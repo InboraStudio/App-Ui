@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Inbora Studio - add to cart</title>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main>
+  <div class="product-wrapper">
+    <header>
+      <ion-icon name="grid"></ion-icon>
+      
+      <ion-icon name="heart"></ion-icon>
+    </header>
+    <div class="product-hero">
+      <ion-icon name="chevron-back" id="back"></ion-icon>
+              <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/aefbcede-5ec1-4453-adf1-e86f8fd8d94d/air-zoom-pegasus-38-running-shoe-D1tCt1.png" id="main-shoe">
+     
+      <ion-icon name="chevron-forward" id="next"></ion-icon>
+    </div>
+    <div class="product-description">
+      <header>
+        <h>nike air zoom</h>
+        <ion-icon name="star" id="star"></ion-icon>
+        </header>
+      <p>spring,responsive foam,breathable mesh provides comfort and durability.</p>
+      <div class="row">
+        <p1>size</p1>
+        <button class="size-btn">us 6</button>  
+        <button class="size-btn">us 7</button>
+        <button class="size-btn">us 8</button>
+      </div>
+      <div class="row">
+        <p1>available color</p1>
+        <div class="dot" id="rose"></div>
+        <div class="dot" id="red"></div>
+        <div class="dot" id="blue"></div>
+        <div class="dot" id="black"></div>
+       </div>
+      <div class="price">
+        <h1>$135</h1>
+        <button class="cart-btn">
+          <ion-icon name="cart" id="cart"></ion-icon>
+          add to cart
+        </button>
+      </div>
+      </r>
+    </div>
+  </div>
+  <div class="cart-wrapper">
+    <header>
+      <ion-icon name="arrow-back"></ion-icon>
+      <h1>my cart</h1>
+      <ion-icon name="trash" id="delete-all"></ion-icon>
+    </header>
+    <div class="cart-list">
+      <div class="list-wrapper">
+        <div class="mini-pic"></div>
+        <div class="info">
+          <p2 id="selected-name"></p2>
+          <p3 id="selected-price"></p3>
+        </div>
+        <div class="quantity">
+          <ion-icon name="remove" id="minus"></ion-icon>
+          <p id="selected-qty"></p>
+          <ion-icon name="add" id="add"></ion-icon>
+        </div>
+      </div>
+      <div class="list-wrapper">
+        <div class="mini-pic"></div>
+        <div class="info">
+          <p2 id="selected-name"></p2>
+          <p3 id="selected-price"></p3>
+        </div>
+        <div class="quantity">
+          <ion-icon name="remove" id="minus"></ion-icon>
+          <p id="selected-qty"></p>
+          <ion-icon name="add" id="add"></ion-icon>
+        </div>
+      </div>
+      <div class="list-wrapper">
+        <div class="mini-pic"></div>
+        <div class="info">
+          <p2 id="selected-name"></p2>
+          <p3 id="selected-price"></p3>
+        </div>
+        <div class="quantity">
+          <ion-icon name="remove" id="minus"></ion-icon>
+          <p id="selected-qty"></p>
+          <ion-icon name="add" id="add"></ion-icon>
+        </div>
+      </div>
+      <div class="list-wrapper">
+        <div class="mini-pic"></div>
+        <div class="info">
+          <p2 id="selected-name"></p2>
+          <p3 id="selected-price"></p3>
+        </div>
+        <div class="quantity">
+          <ion-icon name="remove" id="minus"></ion-icon>
+          <p id="selected-qty"></p>
+          <ion-icon name="add" id="add"></ion-icon>
+        </div>
+      </div>
+      <br><br>
+       <h>total: $<span id="total"></span></h>
+     </div>
+  </div>
+</main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
